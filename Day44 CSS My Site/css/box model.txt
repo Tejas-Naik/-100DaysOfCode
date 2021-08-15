@@ -1,0 +1,28 @@
+Every HTML element is treated as a box on Screen
+
+think if you have a div of 300px and you give it a  
+height of 600px it will push all elements to the top and bottom as applies
+to the weight
+
+BOX MODEL
+    if you want a border you can specify tht by giving it a border of solid(3px)
+        after giving the border solid you still have 300x300 if you want this to have 
+        border outside the 300x300 just put border-width:50;
+            after applying bodred-width your width is 400x400
+            border-width {top bottom left right}
+
+        Padding - space between elements 
+            each element should have 20px margin
+
+        Margin - it is the distance between the div and another div 
+
+POSITION
+    children sit on top of parents
+    POSITION = Static
+               Relative
+               Absolute
+               Fixed
+
+    
+
+

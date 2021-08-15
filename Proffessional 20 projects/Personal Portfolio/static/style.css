@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+#navbarSupportedContent {
+  margin-left: 65%;
+}
+/* Index Page */
+#index-page {
+  height: 90vh;
+  background: url("../static/images/bg.jpg");
+  background-size: cover;
+  color: #7562e1;
+}

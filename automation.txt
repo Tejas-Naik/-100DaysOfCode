@@ -1,0 +1,2 @@
+driver_location = "/usr/bin/chromedriver"
+binary_location = "/usr/bin/google-chrome"

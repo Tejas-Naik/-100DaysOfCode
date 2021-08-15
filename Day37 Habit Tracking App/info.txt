@@ -1,0 +1,10 @@
+There are other types of functions than get() in REQUESTS like:
+    requests.post() = this is type of request we give data to the server to execute.
+        post doesn't take 'params=' it takes 'json=parameter'
+    requests.put()  = this is type of request we give data to the server to put in or edit the post request.
+    requests.delete() = this is type of request we delete some data from server
+
+
+The Post function is little bit different that get 'cause in this we have to give data to the API and it will respond.
+The Put function is used to insert some data in the file and delete to delete some data
+

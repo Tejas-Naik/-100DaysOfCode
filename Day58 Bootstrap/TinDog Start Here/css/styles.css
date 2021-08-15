@@ -1,0 +1,157 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* Navbar */
+
+
+#container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+#navbar {
+  padding-bottom: 4.5rem;
+  color: #ff4c68;
+}
+
+#navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Mobile Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  /*to rotate an image you have to use the transform function in CSS and rotate
+    in degrees*/
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-item {
+  padding: 30% 30%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-text {
+  padding: 0 5% 5% 5%;
+  color: #8f8f8f;
+}
+
+.feature-title {
+  font-family: "Montserrat";
+}
+
+.icon {
+  color: #ef8172;
+  margin: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+/* Press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 10%;
+}
+.abouttext {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3.5rem;
+}
+.contact {
+  text-align: center;
+}
+
+.contact-icon {
+  padding: 10px;
+}
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}

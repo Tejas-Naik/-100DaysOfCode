@@ -1,0 +1,12 @@
+What is API key?
+API Key is like your personal Account number and password, this is how the API provided knows how much you are using
+their service
+
+for this project we are gonna be using the AIP of openweathermap.org
+    in openweathermap.org the the parameter are
+          q = city name
+          app id = API key
+
+
+
+
