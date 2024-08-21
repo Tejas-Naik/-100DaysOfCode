@@ -1,3 +1,5 @@
+
+
 import turtle
 from turtle import Screen, Turtle
 
@@ -29,6 +31,9 @@ def main():  # This will run the program
     turtle.onscreenclick(clickRight, 3)
 
     screen.mainloop()  # This will continue running main()
+
+
+
 
 
 main()
